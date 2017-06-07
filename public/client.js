@@ -38,6 +38,7 @@ function showOrders() {
         var $div = $('.orders');
         $div.append('<p>' + 'Order ID: ' + response[i].order_id + '<br>' + 'Product ID: ' + response[i].product_id + '<br>' + 'Description: ' + response[i].description + '<br>' + 'Quantity: ' + response[i].quantity + '<br>' + 'Unit Price: ' + response[i].unit_price + '<br>' + '</p>');
         $div.data('id', response[i].id);
+        $div.append("Thank you for your order");
 
 
       } //end for loop
