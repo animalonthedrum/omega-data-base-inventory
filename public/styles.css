@@ -1,0 +1,21 @@
+.orders {
+  float: right;
+  display: inline-block;
+  padding-right: 400px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.right {
+  float: right;
+  display: inline-block;
+  padding-right: 400px;
+}
+
+h1 {
+  display: inline-block;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.display {
+  font-family: 'Raleway', sans-serif;
+}
